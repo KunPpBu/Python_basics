@@ -1,2 +1,13 @@
 from googletrans import Translator
 
+print(googletrans.LANGUAGES)
+
+#reate an object of the Translator class.
+translator = Translator()
+result = translator.translate('Mitä sinä teet')
+
+print(result.src)
+print(result.dest)
+print(result.origin)
+print(result.text)
+print(result.pronunciation)
