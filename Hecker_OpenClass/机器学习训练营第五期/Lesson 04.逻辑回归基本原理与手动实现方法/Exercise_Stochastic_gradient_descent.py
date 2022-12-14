@@ -12,3 +12,9 @@ from ML_basic_function import *
 
 
 w = 0
+x = np.array([[1], [3]])
+x
+y = np.array([[2], [5]])
+y
+w = w_cal(x[0], w, y[0], lr_gd, lr = 0.02, itera_times = 1)
+w
