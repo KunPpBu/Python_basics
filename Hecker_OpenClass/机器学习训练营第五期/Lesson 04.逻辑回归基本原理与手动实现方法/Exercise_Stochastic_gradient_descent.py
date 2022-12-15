@@ -18,3 +18,7 @@ y = np.array([[2], [5]])
 y
 w = w_cal(x[0], w, y[0], lr_gd, lr = 0.02, itera_times = 1)
 w
+w = w_cal(x[1], w, y[1], lr_gd, lr = 0.02, itera_times = 1)
+w
+w = 0
+w_cal(x, w, y, lr_gd, lr = 0.02, itera_times = 2)
