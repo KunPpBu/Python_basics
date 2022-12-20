@@ -27,7 +27,8 @@ use_condaenv("anaconda3")
 
 ```{r Install Packages}
 # use py_install to install packages needed
-reticulate::install_miniconda(force=TRUE, update=FALSE)
+install.packages("reticulate")
+reticulate::install_miniconda(force=TRUE, update=TRUE)
 ```
 
 ```{python Import python packages for data analysis and machine learning}
