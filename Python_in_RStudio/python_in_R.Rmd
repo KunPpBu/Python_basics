@@ -73,5 +73,8 @@ def arrayGenReg(num_examples = 1000, w = [2, -1, 1], bias = True, delta = 0.01, 
     return features, labels
 ```
 
+```{Python Exercise}
+
+
 ```
 
